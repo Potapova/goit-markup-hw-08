@@ -1,7 +1,260 @@
-body {
-    font-family: "Roboto";
+:root{
+    --primary-color:#FFFFFF;
+    --second-color:#757575;
+    --accent-color:#2196F3;
+    --text-color: #212121;
+    --fone-color: #2F303A;
 }
 
-.link {
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+}
+
+a {
     text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a.active {
+    color: var(--accent-color);
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.header-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+/* ---------HEADER--------- */
+.logo-color{
+    color: var(--text-color);
+}
+.header-link{ 
+   color: var(--text-color);
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--accent-color);
+}
+
+.contacts-text{
+    color:var(--second-color); 
+}
+.contacts-text:hover,
+.contacts-text:focus{
+    color:var(--accent-color);
+}
+
+/* ---------HERO--------- */
+
+.hero{
+    background-color:var(--fone-color);
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.hero-btn{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------ABOUT--------- */
+
+.about-pretitle {
+}
+.about-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.about-text {
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+/* ---------BOX--------- */
+
+.box-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+
+
+}
+
+/* ---------LIST--------- */
+
+.team{
+    background-color: #F5F4FA;;
+}
+
+.list-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list-title,
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+.team-info{
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+/* ---------FOOTER--------- */
+
+.footer{
+    background-color:var(--fone-color);
+}
+
+.footer .logo-color{
+    color: var(--primary-color);
+}
+
+.address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+
+.address:hover,
+.address:focus{
+    color: var(--accent-color);
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-text:hover,
+.footer-text:focus{
+    color: var(--accent-color);
+}
+
+
+
+/* ---------PORTFOLIO--------- */
+
+.portfolio-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.filter-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+}
+
+.name-project{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-color)
+}
+
+.about-project{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
 }
