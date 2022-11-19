@@ -81,7 +81,6 @@ a.active {
 
 .hero-btn{
     font-family: inherit;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -102,7 +101,6 @@ a.active {
 .about-pretitle {
 }
 .about-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -119,7 +117,6 @@ a.active {
 /* ---------BOX--------- */
 
 .box-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -150,7 +147,6 @@ a.active {
 
 .list-title,
 .team-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -182,7 +178,6 @@ a.active {
 }
 
 .address{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -195,7 +190,6 @@ a.active {
 }
 
 .footer-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -225,6 +219,8 @@ a.active {
 }
 
 .filter-btn{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
