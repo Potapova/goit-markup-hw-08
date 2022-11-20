@@ -6,9 +6,34 @@
     --fone-color: #2F303A;
 }
 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
 }
 
 a {
@@ -18,9 +43,6 @@ li {
     list-style: none;
 }
 
-button {
-    cursor: pointer;
-}
 
 a.active {
     color: var(--accent-color);
@@ -43,6 +65,13 @@ a.active {
 }
 
 /* ---------HEADER--------- */
+.header-list{
+    background-color: tomato;
+}
+.logo{
+    padding: 25px 0;
+    display: block;
+}
 .logo-color{
     color: var(--text-color);
 }
