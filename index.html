@@ -381,8 +381,67 @@
                 <svg width="18" height="18">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
-
             </button>
+
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+
+        <form action="">
+            <div class="modal-input-group">
+                <label for="name">Ім'я</label>
+                <div class="modal-input-wrapper">
+                    <input type="text" class="modal-input" name="name" id="name"/>
+                <svg class="modal-input-icon" width="18" height="18">
+                    <use href ="./images/icons.svg#icon-person"></use>
+                </svg>
+                </div>
+                
+            </div>
+            <div class="modal-input-group">
+                <label for="tel">Телефон</label>
+                <div class="modal-input-wrapper">
+                    <input type="tel" class="modal-input" name="tel" id="tel"/>
+                <svg class="modal-input-icon" width="18" height="18">
+                    <use href ="./images/icons.svg#icon-phone"></use>
+                </svg>
+                </div>
+
+            </div>
+            <div class="modal-input-group">
+                <label for="email">Пошта</label>
+                <div class="modal-input-wrapper">
+                    <input type="email" class="modal-input" name="email" id="email"/>
+                <svg class="modal-input-icon" width="18" height="18">
+                    <use href ="./images/icons.svg#icon-email"></use>
+                </svg>
+                </div>
+
+            </div>
+            <div class="modal-input-group">
+                <label for="comment">Коментар</label>
+                <textarea name="comment" id="comment" class="modal-text"
+                placeholder="Введіть текст"></textarea>
+
+            </div>
+
+
+             <div class="modal-check">
+                <label class="agreement">
+                    <input class="agreement-checkbox" type="checkbox" name="agreement">
+                    <span class="modal-check1">
+                        <svg class="modal-input-icon1" width="11" height="8">
+                            <use href = "./images/icons.svg#icon-check"></use>
+                        </svg>
+                    </span> 
+                    Погоджуюся з розсилкою та приймаю &nbsp 
+                    <a class="link-modal" href="#">Умови договору</a>
+                </label>
+                          
+            </div>
+
+            <button type="submit" class="submit">Відправити</button>
+
+
+        </form>
         </div>
     </div>
 
