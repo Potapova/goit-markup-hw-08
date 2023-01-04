@@ -1,0 +1,35 @@
+.box-list {
+  @extend %flex-align;
+  gap: 30px;
+}
+
+.box-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+
+  margin-bottom: 50px;
+}
+
+.img-box {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--primary-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
